@@ -1,9 +1,9 @@
 *{
     padding : 0;
+    margin: 0;
 }
 
 body{
-    color:white;
     text-align: center;
     padding: 0 10rem;
 }
@@ -12,8 +12,30 @@ body{
     background-color: grey;
 }
 
-.block-element{
-    background-image: url("../img/iphone11pro.jpg");
+.nav-a-style{
+    color:white;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.menu-style{
+    background-color:black;
+    text-align: left;
+    border-color: rgb(40,40,40);
+    /* display: none; */
+}
+
+.menu-a-style{
+    color: white;
+}
+
+.dark-block-element{
+    color: white;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -21,11 +43,22 @@ body{
     
 }
 
-.menu-style{
-    background-color: grey;
-    text-align: left;
-    width: 100%;
-    padding: 0;
-    text-decoration: none;
-    /* display: none; */
+.light-block-element{
+    color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2rem 5rem 15rem;
+    
+}
+
+.bg-image1{
+    background-image: url("../img/iphone11pro.jpg");
+}
+
+.bg-image2{
+    background-image: url("../img/iphone11.jpg");
+}
+.bg-image3{
+    background-image: url("../img/applewatch.jpg");
 }
