@@ -3,9 +3,13 @@
     margin: 0;
 }
 
+:root{
+    --link-blue: rgb(31, 169, 204);
+}
+
 body{
     text-align: center;
-    padding: 0 10rem;
+    /* padding: 0 10rem; */
 }
 
 .nav-style{
@@ -19,46 +23,66 @@ body{
 ul{
     list-style: none;
 }
-a{
+li a{
     text-decoration: none;
+    color:white;
 }
 
 .menu-style{
     background-color:black;
     text-align: left;
-    border-color: rgb(40,40,40);
+    /* border-color: black; */
     /* display: none; */
 }
 
-.menu-a-style{
-    color: white;
+.menu-style ul{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: rgb(58, 55, 55);
+    border-width: .01rem;
 }
 
-.dark-block-element{
-    color: white;
+.menu-style li{
+    border-bottom-style: solid;
+    border-color: rgb(58, 55, 55);
+    border-width: .01rem;
+    margin: 0 2rem;
+    padding: 1rem 0;
+}
+
+.link-blue-style{
+    color: var(--link-blue);
+    /* color: blue; */
+}
+
+.inline-list > li{
+    display: inline;
+}
+
+/* main */
+.product{
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: auto 100%;
     padding: 2rem 5rem 15rem;
-    
+}
+.dark-style{
+    color: white;
+    background-color: black;    
 }
 
-.light-block-element{
+.light-style{
     color: black;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 2rem 5rem 15rem;
-    
+    background-color: white;
 }
 
-.bg-image1{
+.iphone11pro{
     background-image: url("../img/iphone11pro.jpg");
 }
 
-.bg-image2{
+.iphone11{
     background-image: url("../img/iphone11.jpg");
 }
-.bg-image3{
+.watch{
     background-image: url("../img/applewatch.jpg");
 }
